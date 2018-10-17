@@ -14,7 +14,7 @@ Create a `babel.config.js` file in the root of your project with the following c
 
 ```js
 // <project-dir>/babel.config.js
-module.exports = require('c2-react-config/babel.config')
+module.exports = require('c2-react-config').babelConfig
 ```
 
 ## Webpack
@@ -25,7 +25,7 @@ Create a `webpack.config.js` file in the root of your project with the following
 ```js
 // <project-dir>/webpack.config.js
 const path = require('path')
-const webpackConfig = require('c2-react-config/webpack/webpack.config')
+const {webpackConfig} = require('c2-react-config')
 
 module.exports = (env) => {
   env.presetDir = path.join(__dirname, 'webpack')
@@ -120,9 +120,9 @@ For example, if you want to change the webpack-dev-server port:
 
 ```js
 // <project-dir>/webpack/dev-server.development.js
-const utils = require('c2-react-config/webpack/utils')
+const {webpackUtils} = require('c2-react-config')
 
-module.exports = (env) => utils.extendPreset(env, 'dev-server.development',
+module.exports = (env) => webpackUtils.extendPreset(env, 'dev-server.development',
   {
     devServer: {
       port: 8089
@@ -160,7 +160,7 @@ And then modify your `webpack.config.js` to customize the presets:
 ```js
 // <project-dir>/webpack.config.js
 const path = require('path')
-const webpackConfig = require('c2-react-config/webpack/webpack.config')
+const {webpackConfig} = require('c2-react-config')
 const {presets} = webpackConfig
 
 // add "provide" preset to common presets
