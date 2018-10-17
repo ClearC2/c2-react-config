@@ -41,7 +41,7 @@
     "react-hot-loader": "^4.3.11",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
-    "uglifyjs-webpack-plugin": "^2.0.1",
+    "terser-webpack-plugin": "^1.1.0",
     "url-loader": "^1.1.1",
     "url-search-params-polyfill": "^5.0.0",
     "webpack": "^4.20.2",
