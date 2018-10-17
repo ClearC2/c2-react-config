@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/ClearC2/c2-react-config/compare/v1.0.1...v1.0.2) (2018-10-17)
+
+
+### Bug Fixes
+
+* **exports:** update index exports ([3868e9a](https://github.com/ClearC2/c2-react-config/commit/3868e9a))
+* **webpack:** change from uglifyjs to terser ([ae86ba0](https://github.com/ClearC2/c2-react-config/commit/ae86ba0))
+
 ## [1.0.1](https://github.com/ClearC2/c2-react-config/compare/v1.0.0...v1.0.1) (2018-10-17)
 
 
