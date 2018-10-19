@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/ClearC2/c2-react-config/compare/v1.0.2...v1.0.3) (2018-10-19)
+
+
+### Performance Improvements
+
+* **babel:** update dev source map. change babel from exclude to include ([4bce8ca](https://github.com/ClearC2/c2-react-config/commit/4bce8ca))
+
 ## [1.0.2](https://github.com/ClearC2/c2-react-config/compare/v1.0.1...v1.0.2) (2018-10-17)
 
 
