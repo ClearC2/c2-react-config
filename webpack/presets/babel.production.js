@@ -1,11 +1,13 @@
-module.exports = () => ({
+const path = require('path')
+
+module.exports = (env) => ({
   module: {
     rules: [
       {
         test: /\.js$/,
         use: ['babel-loader'],
-        exclude: [
-          /node_modules/
+        include: [
+          path.join(env.projectDir, 'src')
         ]
       }
     ]
