@@ -5,7 +5,14 @@ module.exports = (env) => ({
     rules: [
       {
         test: /\.js$/,
-        use: ['babel-loader'],
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              cacheDirectory: true
+            }
+          }
+        ],
         include: [
           path.join(env.projectDir, 'src')
         ]
