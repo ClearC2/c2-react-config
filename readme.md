@@ -77,7 +77,7 @@ Configures webpack-dev-server. `development` preset enabled by default.
 Uses the `html-webpack-plugin` and uses `<project-root>/src/index.html` as the template. `common` preset enabled by default.
 
 #### `source-map`
-Configures the appropriate source map for development/production. `common` preset enabled by default.
+Configures the appropriate source map for development/production. `common` preset. **Not** enabled by default.
 
 #### `progress`
 Outputs the build progress in the cli. `common` preset enabled by default.
@@ -102,8 +102,8 @@ Common presets:
 - `css-modules`
 - `html`
 - `progress`
-- `souce-map`
 - `clean`
+- `souce-map` - Not enabled by default
 - `analyzer` - Not enabled by default
 - `sass` - Not enabled by default
 
