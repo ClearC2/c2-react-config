@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/ClearC2/c2-react-config/compare/v1.0.3...v1.0.4) (2018-10-24)
+
+
+### Performance Improvements
+
+* **babel:** use cache directory option ([424b5ea](https://github.com/ClearC2/c2-react-config/commit/424b5ea))
+* **source-map:** make source maps opt-in ([6b5114d](https://github.com/ClearC2/c2-react-config/commit/6b5114d))
+
 ## [1.0.3](https://github.com/ClearC2/c2-react-config/compare/v1.0.2...v1.0.3) (2018-10-19)
 
 
