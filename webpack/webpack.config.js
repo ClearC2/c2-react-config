@@ -11,7 +11,6 @@ const presets = {
     'css-modules',
     'html',
     'progress',
-    'source-map',
     'clean'
   ],
   production: [
