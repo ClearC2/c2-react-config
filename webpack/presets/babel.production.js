@@ -16,6 +16,7 @@ module.exports = (env) => ({
   plugins: [
     new HappyPack({
       id: 'js',
+      threads: 4,
       loaders: [
         {
           loader: 'babel-loader',
