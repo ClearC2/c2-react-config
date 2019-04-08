@@ -5,7 +5,7 @@ Centralized project configuration for react projects.
 ## Install
 
 ```
-yarn add @clearc2/c2-react-config#^2.0.0
+yarn add @clearc2/c2-react-config
 ```
 
 ## ESLint
