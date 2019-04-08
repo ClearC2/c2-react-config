@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "David Adams",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
     "webpack": "webpack",
@@ -25,12 +28,12 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.1.2",
+    "@clearc2/eslint-config-c2-react": "^2.0.0",
     "autoprefixer": "^9.1.5",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
-    "eslint-config-c2-react": "^1.4.3",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.3",
@@ -81,6 +84,11 @@
   },
   "release": {
     "branch": "master",
-    "extends": "c2-semantic-release"
+    "extends": "c2-semantic-release",
+    "npmPublish": true,
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ]
   }
 }
