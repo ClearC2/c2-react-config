@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/ClearC2/c2-react-config/compare/v1.0.4...v2.0.0) (2019-04-08)
+
+
+### Bug Fixes
+
+* update package name ([#6](https://github.com/ClearC2/c2-react-config/issues/6)) ([40a2941](https://github.com/ClearC2/c2-react-config/commit/40a2941))
+
+
+### Features
+
+* **eslint:** add hooks eslint rules ([#5](https://github.com/ClearC2/c2-react-config/issues/5)) ([27dfee6](https://github.com/ClearC2/c2-react-config/commit/27dfee6))
+
+
+### BREAKING CHANGES
+
+* update package name. `require`'s must be updated to use new package name.
+* **eslint:** change eslint to inherit from scoped @clearc2/eslint-config-c2-react package. See new ESLint section in readme.
+
 ## [1.0.4](https://github.com/ClearC2/c2-react-config/compare/v1.0.3...v1.0.4) (2018-10-24)
 
 
