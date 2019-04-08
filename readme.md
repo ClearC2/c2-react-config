@@ -5,7 +5,19 @@ Centralized project configuration for react projects.
 ## Install
 
 ```
-yarn add ClearC2/c2-react-config#^1.0.0
+yarn add @clearc2/c2-react-config#^2.0.0
+```
+
+## ESLint
+
+Create a `.eslintrc` file in the root of your project with the following contents:
+
+```json
+{
+  "extends": [
+    "@clearc2/c2-react"
+  ]
+}
 ```
 
 ## Babel
