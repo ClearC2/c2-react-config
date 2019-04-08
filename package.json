@@ -1,5 +1,5 @@
 {
-  "name": "c2-react-config",
+  "name": "@clearc2/c2-react-config",
   "version": "1.0.4",
   "main": "index.js",
   "author": "David Adams",
