@@ -28,6 +28,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.1.2",
+    "@babel/runtime-corejs3": "^7.4.3",
     "@clearc2/eslint-config-c2-react": "^2.0.0",
     "autoprefixer": "^9.1.5",
     "babel-core": "^7.0.0-bridge.0",

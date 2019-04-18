@@ -21,7 +21,8 @@ const plugins = [
   [
     require.resolve('@babel/plugin-transform-runtime'),
     {
-      useESModules: !useCommonJS
+      useESModules: !useCommonJS,
+      corejs: 3
     }
   ],
   require.resolve('react-hot-loader/babel')
