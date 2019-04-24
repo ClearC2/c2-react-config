@@ -7,6 +7,7 @@ const presets = [
     require.resolve('@babel/preset-env'),
     {
       modules: useCommonJS ? 'commonjs' : false,
+      corejs: 3,
       useBuiltIns: 'entry',
       targets: '> 0.25%, not dead'
     }
