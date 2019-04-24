@@ -7,6 +7,7 @@ const presets = [
     require.resolve('@babel/preset-env'),
     {
       modules: useCommonJS ? 'commonjs' : false,
+      corejs: 3,
       useBuiltIns: 'entry',
       targets: '> 0.25%, not dead'
     }
@@ -21,7 +22,8 @@ const plugins = [
   [
     require.resolve('@babel/plugin-transform-runtime'),
     {
-      useESModules: !useCommonJS
+      useESModules: !useCommonJS,
+      corejs: 3
     }
   ],
   require.resolve('react-hot-loader/babel')
