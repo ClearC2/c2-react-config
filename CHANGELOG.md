@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ClearC2/c2-react-config/compare/v2.0.0...v2.0.1) (2019-04-24)
+
+
+### Bug Fixes
+
+* **babel:** add corejs3 ([#7](https://github.com/ClearC2/c2-react-config/issues/7)) ([2fa71f5](https://github.com/ClearC2/c2-react-config/commit/2fa71f5))
+
 # [2.0.0](https://github.com/ClearC2/c2-react-config/compare/v1.0.4...v2.0.0) (2019-04-08)
 
 
