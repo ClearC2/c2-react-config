@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/ClearC2/c2-react-config/compare/v2.0.2...v2.0.3) (2019-05-03)
+
+
+### Bug Fixes
+
+* **eslint:** upgrade lint package ([93c641a](https://github.com/ClearC2/c2-react-config/commit/93c641a))
+
 ## [2.0.2](https://github.com/ClearC2/c2-react-config/compare/v2.0.1...v2.0.2) (2019-05-02)
 
 
