@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/ClearC2/c2-react-config/compare/v2.0.3...v2.0.4) (2019-05-06)
+
+
+### Bug Fixes
+
+* **eslint:** upgrade linter ([#10](https://github.com/ClearC2/c2-react-config/issues/10)) ([f2db60f](https://github.com/ClearC2/c2-react-config/commit/f2db60f))
+
 ## [2.0.3](https://github.com/ClearC2/c2-react-config/compare/v2.0.2...v2.0.3) (2019-05-03)
 
 
