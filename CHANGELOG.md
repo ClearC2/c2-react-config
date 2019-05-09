@@ -1,3 +1,16 @@
+# [3.0.0](https://github.com/ClearC2/c2-react-config/compare/v2.0.4...v3.0.0) (2019-05-09)
+
+
+### Performance Improvements
+
+* **hot-loader:** add hot loader alias for better hot reloading ([#11](https://github.com/ClearC2/c2-react-config/issues/11)) ([ca5b635](https://github.com/ClearC2/c2-react-config/commit/ca5b635))
+
+
+### BREAKING CHANGES
+
+* **hot-loader:** requires project to `yarn add @hot-loader/react-dom`. requires `hot` to be imported from `import {hot} from 'react-hot-loader/root'`.
+requires change from `export default hot(module)(App)` to `export default hot(App)`
+
 ## [2.0.4](https://github.com/ClearC2/c2-react-config/compare/v2.0.3...v2.0.4) (2019-05-06)
 
 
