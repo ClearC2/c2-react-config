@@ -11,7 +11,8 @@ const presets = {
     'css-modules',
     'html',
     'progress',
-    'clean'
+    'clean',
+    'hot'
   ],
   production: [
     'optimize'
