@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/ClearC2/c2-react-config/compare/v3.0.0...v3.0.1) (2019-05-16)
+
+
+### Bug Fixes
+
+* **babel:** set preset-env range higher for corejs error ([69f5fca](https://github.com/ClearC2/c2-react-config/commit/69f5fca))
+
 # [3.0.0](https://github.com/ClearC2/c2-react-config/compare/v2.0.4...v3.0.0) (2019-05-09)
 
 
