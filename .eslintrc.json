@@ -1,5 +1,12 @@
 {
+  "plugins": [
+    "prettier"
+  ],
   "extends": [
-    "@clearc2/c2-react"
-  ]
+    "@clearc2/c2-react",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
