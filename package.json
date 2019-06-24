@@ -33,7 +33,6 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.0.4",
     "c2-semantic-release": "ClearC2/c2-semantic-release#^2.0.0",
-    "caniuse-lite": "1.0.30000974",
     "clean-webpack-plugin": "^0.1.19",
     "core-js": "^3.0.1",
     "css-loader": "^1.0.0",
