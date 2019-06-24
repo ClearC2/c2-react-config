@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/ClearC2/c2-react-config/compare/v3.0.1...v3.0.2) (2019-06-24)
+
+
+### Bug Fixes
+
+* upgrade deps ([#12](https://github.com/ClearC2/c2-react-config/issues/12)) ([db3c0d4](https://github.com/ClearC2/c2-react-config/commit/db3c0d4))
+
 ## [3.0.1](https://github.com/ClearC2/c2-react-config/compare/v3.0.0...v3.0.1) (2019-05-16)
 
 
