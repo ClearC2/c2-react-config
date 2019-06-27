@@ -11,14 +11,14 @@ const presets = {
     'css-modules',
     'html',
     'progress',
-    'clean',
-    'hot'
+    'clean'
   ],
   production: [
     'optimize'
   ],
   development: [
-    'dev-server'
+    'dev-server',
+    'hot'
   ]
 }
 
