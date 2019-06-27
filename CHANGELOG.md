@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/ClearC2/c2-react-config/compare/v3.0.3...v3.0.4) (2019-06-27)
+
+
+### Bug Fixes
+
+* move hot preset from common to development preset ([2a9d6f5](https://github.com/ClearC2/c2-react-config/commit/2a9d6f5))
+
 ## [3.0.3](https://github.com/ClearC2/c2-react-config/compare/v3.0.2...v3.0.3) (2019-06-24)
 
 
