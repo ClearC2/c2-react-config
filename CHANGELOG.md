@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/ClearC2/c2-react-config/compare/v3.0.4...v3.0.5) (2019-07-09)
+
+
+### Bug Fixes
+
+* upgrade eslint config ([7d31c8c](https://github.com/ClearC2/c2-react-config/commit/7d31c8c))
+
 ## [3.0.4](https://github.com/ClearC2/c2-react-config/compare/v3.0.3...v3.0.4) (2019-06-27)
 
 
