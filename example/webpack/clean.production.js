@@ -1,6 +1,6 @@
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
-module.exports = (env) => ({
+module.exports = env => ({
   plugins: [
     new CleanWebpackPlugin(['dist'], {
       root: env.projectDir,

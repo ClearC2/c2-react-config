@@ -7,7 +7,7 @@ presets.common = presets.common.concat(['provide', 'sass'])
 // add analyzer to inspect bundle
 // presets.production = presets.production.concat(['analyzer'])
 
-module.exports = (env) => {
+module.exports = env => {
   env.presetDir = path.join(__dirname, 'webpack')
   env.projectDir = __dirname
   return webpackConfig(env)
