@@ -824,10 +824,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@clearc2/eslint-config-c2-react@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@clearc2/eslint-config-c2-react/-/eslint-config-c2-react-2.0.7.tgz#a20076c999e64d18937d4d7ccfe635cc54c5109b"
-  integrity sha512-noORNgyoGvKd64yKQLlWSGcHAfwa5qIjRLc6eleykGibHetLB+XyoV50GK2jA+VxC1/VHz8o4hRM7O3xT+/WyA==
+"@clearc2/eslint-config-c2-react@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@clearc2/eslint-config-c2-react/-/eslint-config-c2-react-2.0.8.tgz#f034326c561a7d7629dae49734dfcd4fe2738898"
+  integrity sha512-ezKQwMhPHuiur3Mk3dV5jXvHc32j/XZC8iz8EnGRrknWDnmfz//5GIManCBTCAgTBBYLfEGufCiIN/ZnnSAwVQ==
   dependencies:
     babel-eslint "^10.0.2"
     eslint "^6.1.0"
