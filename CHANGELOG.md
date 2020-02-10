@@ -1,3 +1,10 @@
+## [3.0.7](https://github.com/ClearC2/c2-react-config/compare/v3.0.6...v3.0.7) (2020-02-10)
+
+
+### Bug Fixes
+
+* **eslint:** make exhaustive deps error ([1e717aa](https://github.com/ClearC2/c2-react-config/commit/1e717aa))
+
 ## [3.0.6](https://github.com/ClearC2/c2-react-config/compare/v3.0.5...v3.0.6) (2019-08-06)
 
 
