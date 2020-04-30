@@ -60,7 +60,7 @@
     "c2-semantic-release": "ClearC2/c2-semantic-release#^2.0.0",
     "cross-env": "^5.2.0",
     "husky": "^1.1.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
