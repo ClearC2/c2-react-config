@@ -22,7 +22,7 @@ const requirePreset = (env, basePath) => {
   return typeof preset === 'function' ? preset(env) : preset
 }
 
-const applyPresets = (env) => {
+const applyPresets = async (env) => {
   const {presets} = env
   const mergedConfigs = presets.map(
     presetName => {
@@ -34,7 +34,9 @@ const applyPresets = (env) => {
     }
   )
 
-  return webpackMerge({}, ...mergedConfigs)
+  const configs = await Promise.all(mergedConfigs)
+
+  return webpackMerge({}, ...configs)
 }
 
 module.exports = applyPresets

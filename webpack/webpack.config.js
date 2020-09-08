@@ -22,7 +22,7 @@ const presets = {
   ]
 }
 
-const webpackConfig = (env) => {
+const webpackConfig = async (env) => {
   env.mode = env.mode || 'production'
   const devPresets = presets.common.concat(presets.development)
   const prodPresets = presets.common.concat(presets.production)
@@ -31,7 +31,7 @@ const webpackConfig = (env) => {
     {
       mode: env.mode
     },
-    applyPresets(env)
+    await applyPresets(env)
   )
 }
 
