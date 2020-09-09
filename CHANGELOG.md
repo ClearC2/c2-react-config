@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/ClearC2/c2-react-config/compare/v3.0.7...v3.1.0) (2020-09-09)
+
+
+### Features
+
+* **webpack:** allow presets to be async ([d0b5726](https://github.com/ClearC2/c2-react-config/commit/d0b5726))
+
 ## [3.0.7](https://github.com/ClearC2/c2-react-config/compare/v3.0.6...v3.0.7) (2020-02-10)
 
 
