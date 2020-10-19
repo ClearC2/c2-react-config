@@ -2,6 +2,8 @@ const {NODE_ENV, BABEL_MODULES} = process.env
 
 const useCommonJS = BABEL_MODULES === 'cjs' || NODE_ENV === 'test'
 
+const isEnvProduction = NODE_ENV === 'production'
+
 const presets = [
   [
     require.resolve('@babel/preset-env'),
@@ -16,7 +18,12 @@ const presets = [
 ]
 
 const plugins = [
-  require.resolve('@babel/plugin-proposal-class-properties'),
+  [
+    require.resolve('@babel/plugin-proposal-class-properties'),
+    {
+      loose: true
+    }
+  ],
   require.resolve('@babel/plugin-proposal-object-rest-spread'),
   require.resolve('@babel/plugin-syntax-dynamic-import'),
   [
@@ -26,12 +33,18 @@ const plugins = [
       corejs: 3
     }
   ],
-  require.resolve('react-hot-loader/babel')
-]
+  require.resolve('react-hot-loader/babel'),
+  isEnvProduction && [
+    require.resolve('babel-plugin-transform-react-remove-prop-types'),
+    {
+      removeImport: true
+    }
+  ]
+].filter(Boolean)
 
 const ignore = []
 
-if (NODE_ENV === 'production') {
+if (isEnvProduction) {
   ignore.push('**/*.test.js')
 }
 
