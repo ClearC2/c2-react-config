@@ -7,9 +7,7 @@ module.exports = (env) => ({
     },
     minimizer: [
       new TerserPlugin({
-        cache: true,
-        parallel: true,
-        sourceMap: env.presets.includes('source-map')
+        parallel: true
       })
     ]
   }
