@@ -1,5 +1,4 @@
 import React from 'react'
-import {hot} from 'react-hot-loader/root'
 import styles from './app.module.css'
 import SignIn from './SignIn'
 import Counter from './Counter'
@@ -13,4 +12,4 @@ function App () {
   )
 }
 
-export default hot(App)
+export default App
