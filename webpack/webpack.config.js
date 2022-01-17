@@ -30,6 +30,7 @@ const webpackConfig = async (env) => {
   return webpackMerge(
     {
       mode: env.mode,
+      target: env.mode === "development" ? "web" : undefined,
       module: {
         rules: [
           {
