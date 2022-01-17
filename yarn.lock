@@ -4867,7 +4867,7 @@
   "resolved" "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
   "version" "2.1.0"
 
-"mini-css-extract-plugin@^2.4.5":
+"mini-css-extract-plugin@^2.5.1":
   "integrity" "sha512-CRC6E2yedNjfOA3nQjpqAkpnranxhxmilhBPYtldnXcPT/QZb3aJFzvt0pp8W1jhuLR/E0zDa+QEHuC/HhhaLQ=="
   "resolved" "https://registry.npmjs.org/mini-css-extract-plugin/-/mini-css-extract-plugin-2.5.1.tgz"
   "version" "2.5.1"
