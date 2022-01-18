@@ -18,7 +18,13 @@ const presets = [
 const plugins = [
   require.resolve('@babel/plugin-proposal-class-properties'),
   require.resolve('@babel/plugin-proposal-object-rest-spread'),
-
+  [
+    require.resolve('@babel/plugin-transform-runtime'),
+    {
+      useESModules: !useCommonJS,
+      corejs: 3
+    }
+  ],
   [require.resolve('react-refresh/babel'), {development: true, runtime: 'automatic'}]
 ]
 
