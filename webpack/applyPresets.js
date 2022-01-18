@@ -30,7 +30,9 @@ const applyPresets = async (env) => {
       try {
         config = getProjectPreset(env, presetName)
       } catch (err) {
-        console.error(err)
+        if (presetName === 'output') {
+          console.error(err)
+        }
       }
       return config || getDefaultPreset(env, presetName)
     }
