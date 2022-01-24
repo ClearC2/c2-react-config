@@ -4,6 +4,12 @@ module.exports = (env) => ({
   module: {
     rules: [
       {
+        test: /\.m?js$/,
+        resolve: {
+          fullySpecified: false
+        },
+      },
+      {
         test: /\.js$/,
         use: [
           {
@@ -13,6 +19,9 @@ module.exports = (env) => ({
             }
           }
         ],
+        resolve: {
+          fullySpecified: false
+        },
         include: [
           path.join(env.projectDir, 'src')
         ]

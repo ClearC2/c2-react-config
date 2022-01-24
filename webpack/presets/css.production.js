@@ -1,5 +1,5 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const postCSSLoader = require('./partials/postcss-loader')
 
 const extractCSS = new MiniCssExtractPlugin({
@@ -10,7 +10,7 @@ const extractCSS = new MiniCssExtractPlugin({
 module.exports = () => ({
   optimization: {
     minimizer: [
-      new OptimizeCSSAssetsPlugin({})
+      new CssMinimizerPlugin()
     ]
   },
   module: {
