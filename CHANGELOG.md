@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/ClearC2/c2-react-config/compare/v3.1.0...v4.0.0) (2022-01-24)
+
+
+### Features
+
+* **webpack:** upgrade to webpack5 ([0013d03](https://github.com/ClearC2/c2-react-config/commit/0013d03))
+
+
+### BREAKING CHANGES
+
+* **webpack:** upgrade to webpack 5
+
 # [3.1.0](https://github.com/ClearC2/c2-react-config/compare/v3.0.7...v3.1.0) (2020-09-09)
 
 
