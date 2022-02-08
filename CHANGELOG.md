@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/ClearC2/c2-react-config/compare/v4.0.0...v4.0.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* **devServer:** update dev-server and pass in mode ([8a5e3ae](https://github.com/ClearC2/c2-react-config/commit/8a5e3ae))
+
 # [4.0.0](https://github.com/ClearC2/c2-react-config/compare/v3.1.0...v4.0.0) (2022-01-24)
 
 
