@@ -54,7 +54,7 @@ Presets can have both `development` and `production` versions. This is specified
 argument when using webpack or webpack-dev-server. Example:
 
 ```
-npx webpack --env.mode development
+npx webpack --env mode=development
 ```
 
 `common` presets apply to both `development` and `production` modes.
