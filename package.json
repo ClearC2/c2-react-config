@@ -10,7 +10,7 @@
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
     "webpack": "webpack",
-    "example:dev": "cross-env yarn run webpack-dev-server --config ./example/webpack.config.js --hot --mode development",
+    "example:dev": "cross-env yarn run webpack-dev-server --config ./example/webpack.config.js --hot --env mode=development",
     "example:build": "cross-env yarn run webpack --config ./example/webpack.config.js --mode production",
     "example:clean": "rimraf ./example/dist",
     "cm": "git-cz",
