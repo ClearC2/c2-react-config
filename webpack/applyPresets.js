@@ -1,5 +1,5 @@
 const path = require('path')
-const webpackMerge = require('webpack-merge')
+const {merge: webpackMerge} = require('webpack-merge')
 const fs = require('fs')
 
 const getProjectPreset = (env, presetName) => {
@@ -23,6 +23,7 @@ const requirePreset = (env, basePath) => {
 }
 
 const applyPresets = async (env) => {
+  console.log(env, 'c2-react-config package: ')
   const {presets} = env
   const mergedConfigs = presets.map(
     presetName => {
