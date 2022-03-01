@@ -23,7 +23,6 @@ const requirePreset = (env, basePath) => {
 }
 
 const applyPresets = async (env) => {
-  console.log(env, 'c2-react-config package: ')
   const {presets} = env
   const mergedConfigs = presets.map(
     presetName => {
