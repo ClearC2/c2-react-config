@@ -1,5 +1,5 @@
 const path = require('path')
-const webpackMerge = require('webpack-merge')
+const {merge: webpackMerge} = require('webpack-merge')
 const fs = require('fs')
 
 const getProjectPreset = (env, presetName) => {

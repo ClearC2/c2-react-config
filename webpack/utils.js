@@ -1,4 +1,4 @@
-const webpackMerge = require('webpack-merge')
+const {merge: webpackMerge} = require('webpack-merge')
 
 const getPreset = (env, presetName) => {
   return require(`./presets/${presetName}`)(env)
