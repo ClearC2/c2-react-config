@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/ClearC2/c2-react-config/compare/v4.0.1...v5.0.0) (2022-03-01)
+
+
+### Features
+
+* **packages:** upgrade packages to be node v16 compatible ([#56](https://github.com/ClearC2/c2-react-config/issues/56)) ([4ac4849](https://github.com/ClearC2/c2-react-config/commit/4ac4849f91e4619ce66066ee12514fe34c6e7efc))
+
+
+### BREAKING CHANGES
+
+* **packages:** Upgraded webpack, plugins, and compatible node version
+
 ## [4.0.1](https://github.com/ClearC2/c2-react-config/compare/v4.0.0...v4.0.1) (2022-02-08)
 
 
