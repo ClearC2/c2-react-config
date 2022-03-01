@@ -2488,13 +2488,16 @@ bytes@3.1.2:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
   integrity sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==
 
-c2-semantic-release@ClearC2/c2-semantic-release#^3.0.0:
-  version "3.0.0"
-  resolved "https://codeload.github.com/ClearC2/c2-semantic-release/tar.gz/4954bf9d9a83f0f34552dda55b1d45c934b182ba"
+c2-semantic-release@ClearC2/c2-semantic-release#^3.0.1:
+  version "3.0.1"
+  resolved "https://codeload.github.com/ClearC2/c2-semantic-release/tar.gz/35240c139606e424749e73256a11ccfef73f043e"
   dependencies:
     "@semantic-release/changelog" "^6.0.1"
     "@semantic-release/git" "^10.0.1"
+    "@semantic-release/github" "^8.0.0"
+    "@semantic-release/npm" "^9.0.0"
     commitizen "^4.2.4"
+    cz-conventional-changelog "^3.3.0"
     semantic-release "^19.0.2"
 
 cacache@*, cacache@^15.0.3, cacache@^15.2.0, cacache@^15.3.0:
@@ -3263,6 +3266,20 @@ cz-conventional-changelog@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-3.2.0.tgz#6aef1f892d64113343d7e455529089ac9f20e477"
   integrity sha512-yAYxeGpVi27hqIilG1nh4A9Bnx4J3Ov+eXy4koL3drrR+IO9GaWPsKjik20ht608Asqi8TQPf0mczhEeyAtMzg==
+  dependencies:
+    chalk "^2.4.1"
+    commitizen "^4.0.3"
+    conventional-commit-types "^3.0.0"
+    lodash.map "^4.5.1"
+    longest "^2.0.1"
+    word-wrap "^1.0.3"
+  optionalDependencies:
+    "@commitlint/load" ">6.1.1"
+
+cz-conventional-changelog@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-3.3.0.tgz#9246947c90404149b3fe2cf7ee91acad3b7d22d2"
+  integrity sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==
   dependencies:
     chalk "^2.4.1"
     commitizen "^4.0.3"
@@ -9289,9 +9306,9 @@ terser-webpack-plugin@^5.1.3, terser-webpack-plugin@^5.3.1:
     terser "^5.7.2"
 
 terser@^5.10.0, terser@^5.7.2:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.11.0.tgz#2da5506c02e12cd8799947f30ce9c5b760be000f"
-  integrity sha512-uCA9DLanzzWSsN1UirKwylhhRz3aKPInlfmpGfw8VN6jHsAtu8HJtIpeeHHK23rxnE/cDc+yvmq5wqkIC6Kn0A==
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.12.0.tgz#728c6bff05f7d1dcb687d8eace0644802a9dae8a"
+  integrity sha512-R3AUhNBGWiFc77HXag+1fXpAxTAFRQTJemlJKjAgD9r8xXTpjNKqIXwHM/o7Rh+O0kUJtS3WQVdBeMKFk5sw9A==
   dependencies:
     acorn "^8.5.0"
     commander "^2.20.0"
