@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/ClearC2/c2-react-config/compare/v5.0.0...v5.0.1) (2022-03-09)
+
+
+### Bug Fixes
+
+* **postcss:** add postcss config ([bfbe53c](https://github.com/ClearC2/c2-react-config/commit/bfbe53c5c947e74e34930b464e69c8b92b05e0ac))
+
 # [5.0.0](https://github.com/ClearC2/c2-react-config/compare/v4.0.1...v5.0.0) (2022-03-01)
 
 
