@@ -29,6 +29,14 @@ Create a `babel.config.js` file in the root of your project with the following c
 module.exports = require('@clearc2/c2-react-config').babelConfig
 ```
 
+## PostCSS
+
+Create a `postcss.config.js` file in the root your project with the following contents:
+
+```js
+module.exports = require('@clearc2/c2-react-config').postCSSConfig
+```
+
 ## Webpack
 
 Create a `webpack.config.js` file in the root of your project with the following contents:
