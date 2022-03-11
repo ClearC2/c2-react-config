@@ -1,10 +1,14 @@
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
-module.exports = (env) => ({
+module.exports = () => ({
   plugins: [
-    new CleanWebpackPlugin(['dist'], {
-      root: env.projectDir,
-      exclude: ['.gitignore', 'help']
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: [
+        '**/*',
+        '!.gitignore',
+        '!favicon.ico',
+        '!help/**'
+      ]
     })
   ]
 })
