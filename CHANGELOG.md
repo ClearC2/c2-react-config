@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/ClearC2/c2-react-config/compare/v5.0.1...v5.0.2) (2022-03-11)
+
+
+### Bug Fixes
+
+* postcss and clean-webpack-plugin ([9a98f7d](https://github.com/ClearC2/c2-react-config/commit/9a98f7d307299c4f51ffe215b16f66ba0c7ad326))
+
 ## [5.0.1](https://github.com/ClearC2/c2-react-config/compare/v5.0.0...v5.0.1) (2022-03-09)
 
 
