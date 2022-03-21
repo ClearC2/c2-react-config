@@ -84,9 +84,6 @@ Handles font, images, audio files. `common` preset enabled by default.
 #### `css`
 Converts css to js in development. Extracts/optimizes css in production. `common` preset enabled by default.
 
-#### `sass`
-Converts sass to css. **Not** enabled by default.
-
 #### `css-modules`
 Enables css modules. Use `<name>.module.css` file naming. `common` preset enabled by default.
 
@@ -125,7 +122,6 @@ Common presets:
 - `clean`
 - `souce-map` - Not enabled by default
 - `analyzer` - Not enabled by default
-- `sass` - Not enabled by default
 
 Development presets:
 - `dev-server`
@@ -184,8 +180,7 @@ const {webpackConfig} = require('@clearc2/c2-react-config')
 const {presets} = webpackConfig
 
 // add "provide" preset to common presets
-// also add sass support for fun
-presets.common = presets.common.concat(['provide', 'sass'])
+presets.common = presets.common.concat(['provide'])
 
 // add analyzer to inspect bundle on production output
 presets.production = presets.production.concat(['analyzer'])
@@ -201,4 +196,4 @@ module.exports = (env) => {
 Presets will fall back to the production version if a development version is not found in development mode.
 
 ## Example
-There is an example in the `example` directory which shows off css modules, a custom preset(`provide`), sass, and illustrates how to install bootstrap.
+There is an example in the `example` directory which shows off css modules, a custom preset(`provide`), and illustrates how to install bootstrap.
