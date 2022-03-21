@@ -1,3 +1,15 @@
+# [6.0.0](https://github.com/ClearC2/c2-react-config/compare/v5.0.2...v6.0.0) (2022-03-21)
+
+
+### Bug Fixes
+
+* **sass:** remove sass ([01e7204](https://github.com/ClearC2/c2-react-config/commit/01e72041392277024c3ca8044494faca21a24175))
+
+
+### BREAKING CHANGES
+
+* **sass:** remove the inclusion of sass support. require app to set that up
+
 ## [5.0.2](https://github.com/ClearC2/c2-react-config/compare/v5.0.1...v5.0.2) (2022-03-11)
 
 
