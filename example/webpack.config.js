@@ -1,9 +1,9 @@
 const path = require('path')
 const webpackConfig = require('../webpack/webpack.config')
 
-// add provide and sass to common presets
+// add provide to common presets
 const {presets} = webpackConfig
-presets.common = presets.common.concat(['provide', 'sass'])
+presets.common = presets.common.concat(['provide'])
 // add analyzer to inspect bundle
 // presets.production = presets.production.concat(['analyzer'])
 
