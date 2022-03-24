@@ -1,3 +1,15 @@
+# [7.0.0](https://github.com/ClearC2/c2-react-config/compare/v6.0.0...v7.0.0) (2022-03-24)
+
+
+### Styles
+
+* **eslint:** remove eslint as prod dependency ([1e13fbc](https://github.com/ClearC2/c2-react-config/commit/1e13fbc07991ed37090ea9c587ee2151eaffa83a))
+
+
+### BREAKING CHANGES
+
+* **eslint:** require the host project to install @clearc2/eslint-config-c2-react
+
 # [6.0.0](https://github.com/ClearC2/c2-react-config/compare/v5.0.2...v6.0.0) (2022-03-21)
 
 
