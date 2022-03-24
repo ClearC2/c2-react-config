@@ -10,6 +10,11 @@ yarn add @clearc2/c2-react-config
 
 ## ESLint
 
+Install the eslint config and parser package:
+```
+yarn add --dev @clearc2/eslint-config-c2-react
+```
+
 Create a `.eslintrc` file in the root of your project with the following contents:
 
 ```json
