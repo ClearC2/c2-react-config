@@ -32,6 +32,6 @@ module.exports = (env) => ({
     ]
   },
   plugins: [
-    new ReactRefreshWebpackPlugin()
+    new ReactRefreshWebpackPlugin({overlay: false})
   ]
 })
