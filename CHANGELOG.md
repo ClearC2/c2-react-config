@@ -1,3 +1,15 @@
+# [8.0.0](https://github.com/ClearC2/c2-react-config/compare/v7.0.0...v8.0.0) (2022-04-01)
+
+
+### Features
+
+* **react:** upgrade to react-refresh ([#62](https://github.com/ClearC2/c2-react-config/issues/62)) ([dd07186](https://github.com/ClearC2/c2-react-config/commit/dd07186782175508e376e5fe14240ff82849bab0))
+
+
+### BREAKING CHANGES
+
+* **react:** requires the removal of react-hot-loader and @hot-loader/react-dom in host projects
+
 # [7.0.0](https://github.com/ClearC2/c2-react-config/compare/v6.0.0...v7.0.0) (2022-03-24)
 
 
