@@ -25,8 +25,7 @@ const plugins = [
       useESModules: !useCommonJS,
       corejs: 3
     }
-  ],
-  require.resolve('react-hot-loader/babel')
+  ]
 ]
 
 const ignore = []

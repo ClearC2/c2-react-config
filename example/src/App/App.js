@@ -1,10 +1,9 @@
 import React from 'react'
-import {hot} from 'react-hot-loader/root'
 import styles from './app.module.css'
 import SignIn from './SignIn'
 import Counter from './Counter'
 
-function App () {
+export default function App () {
   return (
     <div className={styles['css-mod-test']}>
       <Counter />
@@ -12,5 +11,3 @@ function App () {
     </div>
   )
 }
-
-export default hot(App)

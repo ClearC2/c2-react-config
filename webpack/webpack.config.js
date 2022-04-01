@@ -17,8 +17,7 @@ const presets = {
     'optimize'
   ],
   development: [
-    'dev-server',
-    'hot'
+    'dev-server'
   ]
 }
 
