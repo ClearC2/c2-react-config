@@ -1,3 +1,10 @@
+## [8.0.1](https://github.com/ClearC2/c2-react-config/compare/v8.0.0...v8.0.1) (2022-04-18)
+
+
+### Bug Fixes
+
+* **plugin:** update the react-refresh webpack plugin ([aaed43b](https://github.com/ClearC2/c2-react-config/commit/aaed43b05d17b32e2beeccaf3bfc6318b4a0892c))
+
 # [8.0.0](https://github.com/ClearC2/c2-react-config/compare/v7.0.0...v8.0.0) (2022-04-01)
 
 
