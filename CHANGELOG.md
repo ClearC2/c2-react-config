@@ -1,3 +1,10 @@
+## [8.0.2](https://github.com/ClearC2/c2-react-config/compare/v8.0.1...v8.0.2) (2022-09-28)
+
+
+### Bug Fixes
+
+* **assets:** fix url loaded assets ([86d8d26](https://github.com/ClearC2/c2-react-config/commit/86d8d268e412ed1659daea3740da6df25d53429f))
+
 ## [8.0.1](https://github.com/ClearC2/c2-react-config/compare/v8.0.0...v8.0.1) (2022-04-18)
 
 
