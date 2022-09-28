@@ -1,5 +1,3 @@
-const URL_LOADER_LIMIT = 8192
-
 module.exports = () => ({
   module: {
     rules: [
@@ -13,16 +11,7 @@ module.exports = () => ({
       },
       {
         test: /\.(png|jpg|gif)$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              outputPath: 'images/',
-              name: '[name].[ext]',
-              limit: URL_LOADER_LIMIT
-            }
-          }
-        ]
+        type: 'asset'
       }
     ]
   }
